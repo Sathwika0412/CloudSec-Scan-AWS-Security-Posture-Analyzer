@@ -1,0 +1,26 @@
+{
+  "s3_buckets": [
+    {
+      "name": "finance-data-backup",
+      "public_access": true,
+      "encryption_enabled": false
+    },
+    {
+      "name": "internal-reports",
+      "public_access": false,
+      "encryption_enabled": true
+    }
+  ],
+  "iam_users": [
+    {
+      "username": "admin_user",
+      "mfa_enabled": false,
+      "policy": "AdministratorAccess"
+    },
+    {
+      "username": "analyst_user",
+      "mfa_enabled": true,
+      "policy": "ReadOnlyAccess"
+    }
+  ]
+}

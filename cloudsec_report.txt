@@ -1,0 +1,6 @@
+{'id': 'CLOUD-2026-001', 'type': 'Public S3 Bucket', 'resource': 'finance-data-backup', 'severity': 'HIGH', 'recommendation': 'Disable public access immediately'}
+{'id': 'CLOUD-2026-002', 'type': 'S3 Bucket Without Encryption', 'resource': 'finance-data-backup', 'severity': 'MEDIUM', 'recommendation': 'Enable server-side encryption'}
+{'id': 'CLOUD-2026-003', 'type': 'IAM User Without MFA', 'resource': 'admin_user', 'severity': 'HIGH', 'recommendation': 'Enable Multi-Factor Authentication'}
+{'id': 'CLOUD-2026-004', 'type': 'Overprivileged IAM User', 'resource': 'admin_user', 'severity': 'MEDIUM', 'recommendation': 'Apply least privilege principle'}
+
+Overall Risk Score: 90/100
